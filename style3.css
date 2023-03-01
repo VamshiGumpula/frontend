@@ -61,13 +61,14 @@ background-color: rgb(39, 67, 91);
 
 #home{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     background-color: white;
     height:840px;
     justify-content: center;
     align-items: center;
     color: black;
     border: 3px solid black;
+    margin-left: 8px;
 }
 #home::before{
     content: "";
@@ -83,13 +84,13 @@ background-color: rgb(39, 67, 91);
 
 .main{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     border: 10px solid gray;
     border-style: double;   /* many styles here like dotted*/
     align-items: center;
+    justify-content: center;
     position: absolute;
-    top: 30%;
-    right: 40%;
+    
 }
 
 .headings{
@@ -119,29 +120,16 @@ background-color: rgb(39, 67, 91);
 
 #about{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     border: 3px solid black; /*adding the border*/
 }
 #pic{
     display: flex;
     /* border: 3px solid black; */
+    flex-wrap: wrap;
+    
 }
-#pic img{
-    width: 255px;
-    height: 400px;
-}
- #intro{
-    display: flex;
-    flex-direction:  column;
-    text-align: justify;
-    padding: 10px;
-
- }
-
- #intro h2{
-    font-size: 2rem;
-    margin-bottom: 20px;
- }
+  
  /*gallery section*/
 
  #gallery{
