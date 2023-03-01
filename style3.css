@@ -197,7 +197,7 @@ background-color: rgb(39, 67, 91);
 }
 
 .input{
-    padding: 50px;
+    padding: 5px;
     margin: 10px;
     width:30%;
     /* height: 20%; */
@@ -219,11 +219,13 @@ background-color: rgb(39, 67, 91);
     margin: 40px;
     border: none;
     outline: none;
+    /* background-color: rgba(5, 228, 131, 0.539); */
+    background-color: greenyellow;
 }
 
 #send:hover{
     cursor: pointer;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px lightyellow;
 }
 
 .form img{
